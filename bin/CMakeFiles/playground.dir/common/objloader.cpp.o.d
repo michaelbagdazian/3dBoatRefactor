@@ -1,5 +1,5 @@
 CMakeFiles/playground.dir/common/objloader.cpp.o: \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.cpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/vector \
  /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -117,8 +117,8 @@ CMakeFiles/playground.dir/common/objloader.cpp.o: \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/glm.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/_fixes.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/glm.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/_fixes.hpp \
  /usr/include/c++/12/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -153,83 +153,83 @@ CMakeFiles/playground.dir/common/objloader.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/12/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/fwd.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_int.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/setup.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/fwd.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_int.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/setup.hpp \
  /usr/include/c++/12/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mm_malloc.h \
  /usr/include/c++/12/stdlib.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_float.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/precision.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/vec2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec2.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/vec3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec3.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/vec4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec4.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat2x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x2.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat2x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x3.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat2x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x4.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat3x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x2.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat3x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x3.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat3x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x4.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat4x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x2.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x2.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat4x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x3.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x3.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/mat4x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x4.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/trigonometric.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_trigonometric.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_trigonometric.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/_vectorize.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec1.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_vec1.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/exponential.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_exponential.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_exponential.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_vector_relational.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/common.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_common.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/_fixes.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_common.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/packing.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_packing.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_packing.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_half.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/type_half.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/geometric.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_geometric.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_geometric.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/matrix.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_matrix.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_matrix.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/vector_relational.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/integer.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_integer.hpp \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glm-0.9.7.1/glm/detail/func_integer.inl \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.hpp
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_float.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/precision.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/vec2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec2.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/vec3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec3.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/vec4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec4.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat2x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x2.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat2x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x3.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat2x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat2x4.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat3x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x2.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat3x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x3.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat3x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat3x4.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat4x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x2.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x2.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat4x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x3.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x3.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/mat4x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_mat4x4.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/trigonometric.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_trigonometric.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_trigonometric.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/_vectorize.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec1.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_vec1.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/exponential.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_exponential.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_exponential.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_vector_relational.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/common.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_common.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/_fixes.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_common.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/packing.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_packing.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_packing.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_half.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/type_half.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/geometric.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_geometric.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_geometric.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/matrix.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_matrix.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_matrix.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/vector_relational.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/integer.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_integer.hpp \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glm-0.9.7.1/glm/detail/func_integer.inl \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.hpp

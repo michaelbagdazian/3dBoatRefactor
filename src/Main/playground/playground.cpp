@@ -77,7 +77,7 @@ void updateAnimationLoop()
     // Set our "myTextureSampler" sampler to use Texture Unit 0
     glUniform1i(texID, 0);
 
-    sphere.DrawObject();
+    boat.DrawObject();
 
     // Swap buffers
     glfwSwapBuffers(window);
@@ -153,21 +153,21 @@ bool initializeVertexbuffer()
     textureSamplerID = glGetUniformLocation(programID, "myTextureSampler");
     // This is only used for loading the uvs
     bool res = loadOBJ("lifeboatwater.obj", vertices, uvs, normals);
-    sphere = RenderingObject();
-    sphere.InitializeVAO();
+    boat = RenderingObject();
+    boat.InitializeVAO();
     glGenVertexArrays(1, &VertexArrayID);
     glBindVertexArray(VertexArrayID);
     std::vector< glm::vec3 > vertices = std::vector< glm::vec3 >();
     std::vector< glm::vec3 > normals = std::vector< glm::vec3 >();
     loadSTLFile(vertices, normals, "sailboat.stl");
     vertexbuffer_size = vertices.size() * sizeof(glm::vec3);
-    sphere.SetVertices(vertices);
-    sphere.computeVertexNormalsOfTriangles(vertices, normals);
-    sphere.SetNormals(normals);
-    sphere.textureSamplerID = glGetUniformLocation(programID, "myTextureSampler");
+    boat.SetVertices(vertices);
+    boat.computeVertexNormalsOfTriangles(vertices, normals);
+    boat.SetNormals(normals);
+    boat.textureSamplerID = glGetUniformLocation(programID, "myTextureSampler");
     float scaling = 1.0f;
     std::vector< glm::vec2 > uvbufferdata = uvs;
-    sphere.SetTexture(uvbufferdata, "rawcolor.bmp");
+    boat.SetTexture(uvbufferdata, "rawcolor.bmp");
     glGenBuffers(2, vertexbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer[0]);
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(glm::vec3), &vertices[0], GL_STATIC_DRAW);

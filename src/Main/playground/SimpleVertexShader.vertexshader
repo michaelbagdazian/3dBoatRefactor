@@ -22,7 +22,7 @@ void main(){
 	mat4 normalMatix = transpose(inverse(MV));
 	vec4 normalHom = normalMatix * vec4(vertexNormal_modelspace,1.0);
 	fNormal = normalHom.xyz;
-	vec4 lightHom = normalMatix * vec4(4.0,4.0,4.0,1.0);
+	vec4 lightHom = normalMatix * vec4(3.0,3.0,3.0,1.0);
 	fLight = lightHom.xyz;
 
 	// Output position of the vertex, in clip space : MVP * position

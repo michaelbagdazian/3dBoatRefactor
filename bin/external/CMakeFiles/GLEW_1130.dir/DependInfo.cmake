@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glew-1.13.0/src/glew.c" "external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o" "gcc" "external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o.d"
+  "/home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glew-1.13.0/src/glew.c" "external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o" "gcc" "external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

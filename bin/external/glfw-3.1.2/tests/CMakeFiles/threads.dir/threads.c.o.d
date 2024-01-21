@@ -1,7 +1,7 @@
 external/glfw-3.1.2/tests/CMakeFiles/threads.dir/threads.c.o: \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/threads.c \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/threads.c \
  /usr/include/stdc-predef.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/tinycthread.h \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/tinycthread.h \
  /usr/include/time.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -42,9 +42,9 @@ external/glfw-3.1.2/tests/CMakeFiles/threads.dir/threads.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/include/GLFW/glfw3.h \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/include/GLFW/glfw3.h \
  /usr/include/GL/gl.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/GL/glext.h \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/GL/glext.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

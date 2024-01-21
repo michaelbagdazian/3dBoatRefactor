@@ -1,9 +1,9 @@
 external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/joysticks.c.o: \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/joysticks.c \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/joysticks.c \
  /usr/include/stdc-predef.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/include/GLFW/glfw3.h \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h /usr/include/GL/gl.h \
- /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/GL/glext.h \
+ /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/GL/glext.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

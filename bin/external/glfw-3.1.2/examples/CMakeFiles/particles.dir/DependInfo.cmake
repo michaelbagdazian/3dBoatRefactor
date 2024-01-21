@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/getopt.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o.d"
-  "/home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/tinycthread.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d"
-  "/home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples/particles.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/particles.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/particles.c.o.d"
+  "/home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/getopt.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o.d"
+  "/home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/tinycthread.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d"
+  "/home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples/particles.c" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/particles.c.o" "gcc" "external/glfw-3.1.2/examples/CMakeFiles/particles.dir/particles.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

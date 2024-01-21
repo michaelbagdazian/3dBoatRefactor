@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "/home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "/home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

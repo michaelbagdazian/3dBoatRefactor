@@ -1,4 +1,4 @@
-# Install script for directory: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external
+# Install script for directory: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/cmake_install.cmake")
+  include("/home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/cmake_install.cmake")
 
 endif()
 

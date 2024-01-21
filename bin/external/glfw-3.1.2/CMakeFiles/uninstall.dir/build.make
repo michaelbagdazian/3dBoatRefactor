@@ -53,10 +53,10 @@ RM = /snap/cmake/1361/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main
+CMAKE_SOURCE_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/src/Main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin
+CMAKE_BINARY_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/bin
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include external/glfw-3.1.2/CMakeFiles/uninstall.dir/compiler_depend.make
 include external/glfw-3.1.2/CMakeFiles/uninstall.dir/progress.make
 
 external/glfw-3.1.2/CMakeFiles/uninstall:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2 && /snap/cmake/1361/bin/cmake -P /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/cmake_uninstall.cmake
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2 && /snap/cmake/1361/bin/cmake -P /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/cmake_uninstall.cmake
 
 uninstall: external/glfw-3.1.2/CMakeFiles/uninstall
 uninstall: external/glfw-3.1.2/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ external/glfw-3.1.2/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/glfw-3.1.2/CMakeFiles/uninstall.dir/build
 
 external/glfw-3.1.2/CMakeFiles/uninstall.dir/clean:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : external/glfw-3.1.2/CMakeFiles/uninstall.dir/clean
 
 external/glfw-3.1.2/CMakeFiles/uninstall.dir/depend:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2 /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2 /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/refactor/3dBoatRefactor/src/Main /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2 /home/michael/Workspace/refactor/3dBoatRefactor/bin /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2 /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/glfw-3.1.2/CMakeFiles/uninstall.dir/depend
 

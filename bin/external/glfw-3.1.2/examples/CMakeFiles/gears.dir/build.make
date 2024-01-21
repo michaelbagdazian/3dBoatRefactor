@@ -53,10 +53,10 @@ RM = /snap/cmake/1361/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main
+CMAKE_SOURCE_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/src/Main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin
+CMAKE_BINARY_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/bin
 
 # Include any dependencies generated for this target.
 include external/glfw-3.1.2/examples/CMakeFiles/gears.dir/depend.make
@@ -70,18 +70,18 @@ include external/glfw-3.1.2/examples/CMakeFiles/gears.dir/progress.make
 include external/glfw-3.1.2/examples/CMakeFiles/gears.dir/flags.make
 
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o: external/glfw-3.1.2/examples/CMakeFiles/gears.dir/flags.make
-external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples/gears.c
+external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples/gears.c
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o: external/glfw-3.1.2/examples/CMakeFiles/gears.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o -MF CMakeFiles/gears.dir/gears.c.o.d -o CMakeFiles/gears.dir/gears.c.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples/gears.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.o -MF CMakeFiles/gears.dir/gears.c.o.d -o CMakeFiles/gears.dir/gears.c.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples/gears.c
 
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gears.dir/gears.c.i"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples/gears.c > CMakeFiles/gears.dir/gears.c.i
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples/gears.c > CMakeFiles/gears.dir/gears.c.i
 
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/gears.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gears.dir/gears.c.s"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples/gears.c -o CMakeFiles/gears.dir/gears.c.s
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples/gears.c -o CMakeFiles/gears.dir/gears.c.s
 
 # Object files for target gears
 gears_OBJECTS = \
@@ -103,18 +103,18 @@ external/glfw-3.1.2/examples/gears: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 external/glfw-3.1.2/examples/gears: /usr/lib/x86_64-linux-gnu/libXcursor.so
 external/glfw-3.1.2/examples/gears: /usr/lib/x86_64-linux-gnu/libGL.so
 external/glfw-3.1.2/examples/gears: external/glfw-3.1.2/examples/CMakeFiles/gears.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gears"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gears.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gears"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gears.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/build: external/glfw-3.1.2/examples/gears
 .PHONY : external/glfw-3.1.2/examples/CMakeFiles/gears.dir/build
 
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/clean:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples && $(CMAKE_COMMAND) -P CMakeFiles/gears.dir/cmake_clean.cmake
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples && $(CMAKE_COMMAND) -P CMakeFiles/gears.dir/cmake_clean.cmake
 .PHONY : external/glfw-3.1.2/examples/CMakeFiles/gears.dir/clean
 
 external/glfw-3.1.2/examples/CMakeFiles/gears.dir/depend:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/examples /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/examples/CMakeFiles/gears.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/refactor/3dBoatRefactor/src/Main /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/examples /home/michael/Workspace/refactor/3dBoatRefactor/bin /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/examples/CMakeFiles/gears.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/glfw-3.1.2/examples/CMakeFiles/gears.dir/depend
 

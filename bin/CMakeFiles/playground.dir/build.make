@@ -53,10 +53,10 @@ RM = /snap/cmake/1361/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main
+CMAKE_SOURCE_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/src/Main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin
+CMAKE_BINARY_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/bin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/playground.dir/depend.make
@@ -70,88 +70,88 @@ include CMakeFiles/playground.dir/progress.make
 include CMakeFiles/playground.dir/flags.make
 
 CMakeFiles/playground.dir/playground/playground.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/playground/playground.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/playground.cpp
+CMakeFiles/playground.dir/playground/playground.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/playground.cpp
 CMakeFiles/playground.dir/playground/playground.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playground.dir/playground/playground.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/playground.cpp.o -MF CMakeFiles/playground.dir/playground/playground.cpp.o.d -o CMakeFiles/playground.dir/playground/playground.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/playground.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playground.dir/playground/playground.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/playground.cpp.o -MF CMakeFiles/playground.dir/playground/playground.cpp.o.d -o CMakeFiles/playground.dir/playground/playground.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/playground.cpp
 
 CMakeFiles/playground.dir/playground/playground.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/playground/playground.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/playground.cpp > CMakeFiles/playground.dir/playground/playground.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/playground.cpp > CMakeFiles/playground.dir/playground/playground.cpp.i
 
 CMakeFiles/playground.dir/playground/playground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/playground/playground.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/playground.cpp -o CMakeFiles/playground.dir/playground/playground.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/playground.cpp -o CMakeFiles/playground.dir/playground/playground.cpp.s
 
 CMakeFiles/playground.dir/common/shader.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/common/shader.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/shader.cpp
+CMakeFiles/playground.dir/common/shader.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/shader.cpp
 CMakeFiles/playground.dir/common/shader.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playground.dir/common/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/shader.cpp.o -MF CMakeFiles/playground.dir/common/shader.cpp.o.d -o CMakeFiles/playground.dir/common/shader.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playground.dir/common/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/shader.cpp.o -MF CMakeFiles/playground.dir/common/shader.cpp.o.d -o CMakeFiles/playground.dir/common/shader.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/shader.cpp
 
 CMakeFiles/playground.dir/common/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/common/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/shader.cpp > CMakeFiles/playground.dir/common/shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/shader.cpp > CMakeFiles/playground.dir/common/shader.cpp.i
 
 CMakeFiles/playground.dir/common/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/common/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/shader.cpp -o CMakeFiles/playground.dir/common/shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/shader.cpp -o CMakeFiles/playground.dir/common/shader.cpp.s
 
 CMakeFiles/playground.dir/playground/parse_stl.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/playground/parse_stl.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/parse_stl.cpp
+CMakeFiles/playground.dir/playground/parse_stl.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/parse_stl.cpp
 CMakeFiles/playground.dir/playground/parse_stl.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playground.dir/playground/parse_stl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/parse_stl.cpp.o -MF CMakeFiles/playground.dir/playground/parse_stl.cpp.o.d -o CMakeFiles/playground.dir/playground/parse_stl.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/parse_stl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playground.dir/playground/parse_stl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/parse_stl.cpp.o -MF CMakeFiles/playground.dir/playground/parse_stl.cpp.o.d -o CMakeFiles/playground.dir/playground/parse_stl.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/parse_stl.cpp
 
 CMakeFiles/playground.dir/playground/parse_stl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/playground/parse_stl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/parse_stl.cpp > CMakeFiles/playground.dir/playground/parse_stl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/parse_stl.cpp > CMakeFiles/playground.dir/playground/parse_stl.cpp.i
 
 CMakeFiles/playground.dir/playground/parse_stl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/playground/parse_stl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/parse_stl.cpp -o CMakeFiles/playground.dir/playground/parse_stl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/parse_stl.cpp -o CMakeFiles/playground.dir/playground/parse_stl.cpp.s
 
 CMakeFiles/playground.dir/common/texture.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/common/texture.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/texture.cpp
+CMakeFiles/playground.dir/common/texture.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/texture.cpp
 CMakeFiles/playground.dir/common/texture.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/playground.dir/common/texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/texture.cpp.o -MF CMakeFiles/playground.dir/common/texture.cpp.o.d -o CMakeFiles/playground.dir/common/texture.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/playground.dir/common/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/texture.cpp.o -MF CMakeFiles/playground.dir/common/texture.cpp.o.d -o CMakeFiles/playground.dir/common/texture.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/texture.cpp
 
 CMakeFiles/playground.dir/common/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/common/texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/texture.cpp > CMakeFiles/playground.dir/common/texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/texture.cpp > CMakeFiles/playground.dir/common/texture.cpp.i
 
 CMakeFiles/playground.dir/common/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/common/texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/texture.cpp -o CMakeFiles/playground.dir/common/texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/texture.cpp -o CMakeFiles/playground.dir/common/texture.cpp.s
 
 CMakeFiles/playground.dir/playground/RenderingObject.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/playground/RenderingObject.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/RenderingObject.cpp
+CMakeFiles/playground.dir/playground/RenderingObject.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/RenderingObject.cpp
 CMakeFiles/playground.dir/playground/RenderingObject.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/playground.dir/playground/RenderingObject.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/RenderingObject.cpp.o -MF CMakeFiles/playground.dir/playground/RenderingObject.cpp.o.d -o CMakeFiles/playground.dir/playground/RenderingObject.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/RenderingObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/playground.dir/playground/RenderingObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/playground/RenderingObject.cpp.o -MF CMakeFiles/playground.dir/playground/RenderingObject.cpp.o.d -o CMakeFiles/playground.dir/playground/RenderingObject.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/RenderingObject.cpp
 
 CMakeFiles/playground.dir/playground/RenderingObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/playground/RenderingObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/RenderingObject.cpp > CMakeFiles/playground.dir/playground/RenderingObject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/RenderingObject.cpp > CMakeFiles/playground.dir/playground/RenderingObject.cpp.i
 
 CMakeFiles/playground.dir/playground/RenderingObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/playground/RenderingObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/RenderingObject.cpp -o CMakeFiles/playground.dir/playground/RenderingObject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/RenderingObject.cpp -o CMakeFiles/playground.dir/playground/RenderingObject.cpp.s
 
 CMakeFiles/playground.dir/common/objloader.cpp.o: CMakeFiles/playground.dir/flags.make
-CMakeFiles/playground.dir/common/objloader.cpp.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.cpp
+CMakeFiles/playground.dir/common/objloader.cpp.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.cpp
 CMakeFiles/playground.dir/common/objloader.cpp.o: CMakeFiles/playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/playground.dir/common/objloader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/objloader.cpp.o -MF CMakeFiles/playground.dir/common/objloader.cpp.o.d -o CMakeFiles/playground.dir/common/objloader.cpp.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/playground.dir/common/objloader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/playground.dir/common/objloader.cpp.o -MF CMakeFiles/playground.dir/common/objloader.cpp.o.d -o CMakeFiles/playground.dir/common/objloader.cpp.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.cpp
 
 CMakeFiles/playground.dir/common/objloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/playground.dir/common/objloader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.cpp > CMakeFiles/playground.dir/common/objloader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.cpp > CMakeFiles/playground.dir/common/objloader.cpp.i
 
 CMakeFiles/playground.dir/common/objloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/playground.dir/common/objloader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/common/objloader.cpp -o CMakeFiles/playground.dir/common/objloader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/common/objloader.cpp -o CMakeFiles/playground.dir/common/objloader.cpp.s
 
 # Object files for target playground
 playground_OBJECTS = \
@@ -195,9 +195,9 @@ playground: /usr/lib/x86_64-linux-gnu/libXcursor.so
 playground: /usr/lib/x86_64-linux-gnu/libGL.so
 playground: /usr/lib/x86_64-linux-gnu/libGLU.so
 playground: CMakeFiles/playground.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable playground"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playground.dir/link.txt --verbose=$(VERBOSE)
-	/snap/cmake/1361/bin/cmake -E copy /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/./playground /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/playground/
+	/snap/cmake/1361/bin/cmake -E copy /home/michael/Workspace/refactor/3dBoatRefactor/bin/./playground /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/playground/
 
 # Rule to build all files generated by this target.
 CMakeFiles/playground.dir/build: playground
@@ -208,6 +208,6 @@ CMakeFiles/playground.dir/clean:
 .PHONY : CMakeFiles/playground.dir/clean
 
 CMakeFiles/playground.dir/depend:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles/playground.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/refactor/3dBoatRefactor/src/Main /home/michael/Workspace/refactor/3dBoatRefactor/src/Main /home/michael/Workspace/refactor/3dBoatRefactor/bin /home/michael/Workspace/refactor/3dBoatRefactor/bin /home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles/playground.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/playground.dir/depend
 

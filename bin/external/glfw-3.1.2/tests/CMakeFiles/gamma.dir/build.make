@@ -53,10 +53,10 @@ RM = /snap/cmake/1361/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main
+CMAKE_SOURCE_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/src/Main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin
+CMAKE_BINARY_DIR = /home/michael/Workspace/refactor/3dBoatRefactor/bin
 
 # Include any dependencies generated for this target.
 include external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend.make
@@ -70,32 +70,32 @@ include external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/progress.make
 include external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
-external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/gamma.c
+external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/gamma.c
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o -MF CMakeFiles/gamma.dir/gamma.c.o.d -o CMakeFiles/gamma.dir/gamma.c.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/gamma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o -MF CMakeFiles/gamma.dir/gamma.c.o.d -o CMakeFiles/gamma.dir/gamma.c.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/gamma.c
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/gamma.c.i"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/gamma.c > CMakeFiles/gamma.dir/gamma.c.i
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/gamma.c > CMakeFiles/gamma.dir/gamma.c.i
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/gamma.c.s"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests/gamma.c -o CMakeFiles/gamma.dir/gamma.c.s
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests/gamma.c -o CMakeFiles/gamma.dir/gamma.c.s
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
-external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o: /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/getopt.c
+external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o: /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/getopt.c
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o -MF CMakeFiles/gamma.dir/__/deps/getopt.c.o.d -o CMakeFiles/gamma.dir/__/deps/getopt.c.o -c /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o -MF CMakeFiles/gamma.dir/__/deps/getopt.c.o.d -o CMakeFiles/gamma.dir/__/deps/getopt.c.o -c /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/getopt.c
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/__/deps/getopt.c.i"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/getopt.c > CMakeFiles/gamma.dir/__/deps/getopt.c.i
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/getopt.c > CMakeFiles/gamma.dir/__/deps/getopt.c.i
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/__/deps/getopt.c.s"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/deps/getopt.c -o CMakeFiles/gamma.dir/__/deps/getopt.c.s
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/deps/getopt.c -o CMakeFiles/gamma.dir/__/deps/getopt.c.s
 
 # Object files for target gamma
 gamma_OBJECTS = \
@@ -119,18 +119,18 @@ external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/libXcursor.so
 external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/libGL.so
 external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma"
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gamma.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Workspace/refactor/3dBoatRefactor/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gamma.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build: external/glfw-3.1.2/tests/gamma
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/clean:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests && $(CMAKE_COMMAND) -P CMakeFiles/gamma.dir/cmake_clean.cmake
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests && $(CMAKE_COMMAND) -P CMakeFiles/gamma.dir/cmake_clean.cmake
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/clean
 
 external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend:
-	cd /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main /home/michael/Workspace/3DProjFinal/OpenGL-Template/src/Main/external/glfw-3.1.2/tests /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests /home/michael/Workspace/3DProjFinal/OpenGL-Template/bin/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/michael/Workspace/refactor/3dBoatRefactor/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Workspace/refactor/3dBoatRefactor/src/Main /home/michael/Workspace/refactor/3dBoatRefactor/src/Main/external/glfw-3.1.2/tests /home/michael/Workspace/refactor/3dBoatRefactor/bin /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests /home/michael/Workspace/refactor/3dBoatRefactor/bin/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend
 
