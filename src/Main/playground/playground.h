@@ -40,13 +40,11 @@ RenderingObject boat;
 
 std::vector<glm::vec3> vertices;
 std::vector<glm::vec2> uvs;
-std::vector<glm::vec3> normals; // Won't be used at the moment.
+std::vector<glm::vec3> normals; 
 
 bool toggleRot = false;
 
 
-
-//global variables to handle the object pose
 float curr_x;
 float curr_y;
 float curr_angle;

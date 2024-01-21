@@ -142,7 +142,7 @@ bool updateMVPTransformation()
         glm::vec3(1, 0, 0)          // Up vector
     );
 
-    // Combine Model, View, and Projection matrices to create the final MVP matrix
+    // Combine View, and Projection matrices to create the final MVP matrix
     MVP = Projection * View;
 
     return true;
@@ -151,7 +151,7 @@ bool updateMVPTransformation()
 bool initializeVertexbuffer()
 {
     textureSamplerID = glGetUniformLocation(programID, "myTextureSampler");
-    // This is only used for loading the uvs
+    //  used for loading the uvs
     bool res = loadOBJ("lifeboatwater.obj", vertices, uvs, normals);
     boat = RenderingObject();
     boat.InitializeVAO();
@@ -165,7 +165,7 @@ bool initializeVertexbuffer()
     boat.computeVertexNormalsOfTriangles(vertices, normals);
     boat.SetNormals(normals);
     boat.textureSamplerID = glGetUniformLocation(programID, "myTextureSampler");
-    float scaling = 1.0f;
+    float scaling = 0.5f;
     std::vector< glm::vec2 > uvbufferdata = uvs;
     boat.SetTexture(uvbufferdata, "rawcolor.bmp");
     glGenBuffers(2, vertexbuffer);
